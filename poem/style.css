@@ -1,0 +1,36 @@
+/* Bello! */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+body {
+    font-family: "Poppins", "sans-serif";
+}
+
+.left-aligned-box {
+    max-width: 600px;              
+    margin: 0 auto;  
+    padding: 20px;
+}
+
+.left-aligned-box iframe {
+    width: 100%;             
+    height: auto;            
+    aspect-ratio: 16/9;      
+    display: block;
+    border: none;            
+}
+
+/* Above the line! */
+
+.above-line {
+    background-color: #f0f0f0;
+    padding: 20px; 
+}
+
+.below-line {
+    padding: 20px; 
+}
+
+hr {
+    margin: 20px 0; 
+}
