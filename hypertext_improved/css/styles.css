@@ -1,0 +1,261 @@
+/* General Body Styling */
+body {
+    background: #ff3939;
+    color: rgb(0, 0, 0);
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main Menu Container Styling */
+  #main-menu {
+    text-align: center;
+    background: rgba(255, 255, 255);
+    padding: 20px;
+    border-radius: 12px;
+    border: 8px solid rgb(0, 0, 0);
+    margin: 10px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align the items */
+  }
+  
+  /* Title Styling */
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph Styling */
+  p {
+    margin-bottom: 30px;
+  }
+  
+  /* Mood Picker Button Styling */
+  .mood-btn {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s, background 0.2s;
+  }
+  
+  .mood-btn-container {
+    display: flex; /* Align buttons horizontally */
+    gap: 15px; /* Space between buttons */
+  }
+  
+  /* Button Hover Styling */
+  .mood-btn:hover {
+    background: #ff3939;
+    transform: scale(1.1);
+  }
+  
+  /* Button Active Styling */
+  .mood-btn:active {
+    transform: scale(1);
+  }
+  
+  .mood-btn.clicked {
+    background: #ff3939; /* Change color when clicked */
+    transform: scale(0.95); /* Optional: Shrink a little after clicked */
+    transition: background 0.3s, transform 0.2s; /* Smooth transition */
+  }
+  
+  #start-btn {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s, background 0.2s;
+    text-decoration: none;
+  }
+  
+  /* Start Button Hover Styling */
+  #start-btn:hover {
+    background: #ff3939;
+    transform: scale(1.1);
+  }
+  
+  /* Start Button Active Styling */
+  #start-btn:active {
+    transform: scale(1);
+  }
+  
+  /* Credits Section Styling */
+  #credits {
+    margin-top: 20px;
+    font-size: 0.8em;
+    opacity: 0.8;
+  }
+  
+  /* Hide bullet points in the credits list */
+  #credits ul {
+    list-style-type: none;
+    padding-left: 0; /* Optional: Remove left padding */
+  }
+  
+  
+  /* VISUAL NOVEL PAGES */
+   /* VISUAL NOVEL PAGES */
+    /* VISUAL NOVEL PAGES */
+     /* VISUAL NOVEL PAGES */
+      /* VISUAL NOVEL PAGES */
+       /* VISUAL NOVEL PAGES */
+
+  
+  /* Main Content Container */
+  #main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align the content to the bottom of the screen */
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  #textbox-container {
+    position: relative;
+    width: 80%;  /* Adjust the width to make it take up most of the screen */
+    max-width: 900px;  /* Limit the max width so it doesn't stretch too far */
+    padding: 20px;
+    
+    border-radius: 12px;
+    margin: 0 auto;
+    bottom: 0;  /* Keep it anchored at the bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Pushes the text box upwards */
+    z-index: 2;  /* Ensures container is above the character image */
+    border: none;
+}
+
+#textbox {
+    padding: 50px;
+    background: rgba(255, 255, 255, 1); /* Solid background for readability */
+    border-radius: 8px;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    max-height: 200px;  /* Limit the height of the text box */
+    overflow-y: auto;  /* Allow scrolling if text overflows */
+    z-index: 3;  /* Ensures the textbox content is above the image */
+    border: 8px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;  /* Add some space between input and button */
+}
+
+#character-name {
+    padding: 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    position: absolute;
+    top: 10px;
+    left: 20px;  /* Position name to the left of the text box */
+    z-index: 4;  /* Ensures name stays above the background image */
+    background: rgba(255, 255, 255, 1); /* Solid background for readability */
+    border-radius: 8px;
+    border: 8px solid rgb(0, 0, 0);
+    
+}
+
+#character-image-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;  /* Adjust the max-width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    z-index: 1;  /* Ensures the image is behind the textbox and name */
+    
+}
+
+
+  
+  /* Next Button Styling */
+  .next-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  /* Hover and Active States for Next Button */
+  .next-btn:hover {
+    background: #ff3939;
+    transform: scale(1.1);
+  }
+  
+  .next-btn:active {
+    transform: scale(1);
+  }
+  
+
+  #player-name {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+}
+
+/* Save Button Styling */
+#save-btn {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s, background 0.2s;
+    max-width: 200px; /* Limit max width */
+    width: auto; /* Allow button to size based on content */
+    display: inline-block; /* Ensure it aligns properly with the next button */
+    text-align: center; /* Ensure text is centered inside the button */
+}
+
+/* Save Button Hover Styling */
+#save-btn:hover {
+    background: #ff3939;
+    transform: scale(1.1);
+}
+
+/* Save Button Active Styling */
+#save-btn:active {
+    transform: scale(1);
+}
+
+/* Disabled state for Save button */
+#save-btn:disabled {
+    background-color: #e0e0e0;
+    color: #a0a0a0;
+    cursor: not-allowed;
+    transform: none;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Novel Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="main-content">
+        <div id="textbox-container">
+            <div id="character-image-container">
+                <img src="assets/professor-oak-pose.webp" alt="Character Pose" id="character-image">
+            </div>
+            <div id="character-name">Professor Oak</div>
+            <div id="textbox">
+                <p>Now, what is your name?</p>
+                <!-- Input for player's name -->
+                <input type="text" id="player-name" placeholder="Enter your name" />
+                <button id="save-btn" disabled>Save</button>
+                <a href="end.html" id="next-btn" class="next-btn" style="pointer-events: none; opacity: 0.5;">Next</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</body>
+</html>
