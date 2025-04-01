@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exam 3 Study Guide</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 flex items-center justify-center min-h-screen p-4">
+  <div class="bg-white p-6 rounded-2xl shadow-xl max-w-xl w-full">
+    <h1 class="text-2xl font-bold mb-4 text-center">Psych Exam 3 Study Guide</h1>
+    
+    <div class="mb-4">
+      <div class="w-full bg-gray-200 rounded-full h-2.5 mb-2">
+        <div id="progress-bar" class="bg-blue-500 h-2.5 rounded-full" style="width: 0%"></div>
+      </div>
+      <div id="progress-text" class="text-center text-sm mb-4"></div>
+    </div>
+
+    <div id="question-box" class="mb-4 font-semibold"></div>
+    <div id="options" class="space-y-2"></div>
+    <button id="submit-btn" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Check</button>
+    <div id="feedback" class="mt-4 font-bold text-lg"></div>
+    <button id="next-btn" class="mt-2 hidden bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Next</button>
+    <button id="retake-btn" class="mt-2 hidden bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded">Retake Exam</button>
+  </div>
+
+
+  <script>
+    let questions = [];
+    let currentIndex = 0;
+    let shuffled = [];
+    let correctAnswers = 0;
+
+    async function loadQuestions() {
+      const response = await fetch('Exam3.2.json');
+      const data = await response.json();
+      questions = data.questions;
+      shuffled = questions.sort(() => Math.random() - 0.5);
+      currentIndex = 0;
+      correctAnswers = 0;
+      document.getElementById('retake-btn').classList.add('hidden');
+      displayQuestion();
+    }
+
+    function displayQuestion() {
+      updateProgressBar();
+      const q = shuffled[currentIndex];
+      document.getElementById('feedback').textContent = '';
+      document.getElementById('next-btn').classList.add('hidden');
+
+      document.getElementById('question-box').textContent = q.question;
+
+      const optionsBox = document.getElementById('options');
+      optionsBox.innerHTML = '';
+
+      const opts = q.type === 'mcq' ? q.options : ['True', 'False'];
+
+      opts.forEach(opt => {
+        const optionDiv = document.createElement('div');
+        optionDiv.className = 'block border rounded-lg px-4 py-2 cursor-pointer hover:bg-gray-200';
+        optionDiv.innerHTML = `<input type=\"radio\" name=\"option\" value=\"${opt}\" class=\"mr-2\">${opt}`;
+        optionDiv.onclick = () => optionDiv.querySelector('input').checked = true;
+        optionsBox.appendChild(optionDiv);
+      });
+    }
+
+    function updateProgressBar() {
+      const progress = ((currentIndex + 1) / shuffled.length) * 100;
+      document.getElementById('progress-bar').style.width = progress + '%';
+      document.getElementById('progress-text').textContent = `Question ${currentIndex + 1} of ${shuffled.length}`;
+    }
+
+    document.getElementById('submit-btn').addEventListener('click', () => {
+      const selected = document.querySelector('input[name=\"option\"]:checked');
+      if (!selected) return;
+
+      const answer = selected.value;
+      const q = shuffled[currentIndex];
+
+      document.querySelectorAll('input[name=\"option\"]').forEach(el => {
+        if (el.value === q.answer) {
+          el.parentElement.classList.add('bg-green-100', 'font-semibold');
+        } else {
+          el.disabled = true;
+        }
+      });
+
+      if (answer === q.answer) {
+        correctAnswers++;
+        document.getElementById('feedback').textContent = 'Nice';
+        document.getElementById('feedback').className = 'text-green-600 mt-4 font-bold text-lg';
+      } else {
+        document.getElementById('feedback').textContent = 'Wrong';
+        document.getElementById('feedback').className = 'text-red-600 mt-4 font-bold text-lg';
+      }
+
+      document.getElementById('next-btn').classList.remove('hidden');
+    });
+
+    document.getElementById('next-btn').addEventListener('click', () => {
+      currentIndex++;
+      if (currentIndex >= shuffled.length) {
+        document.getElementById('question-box').textContent = `Exam complete! Your score: ${correctAnswers} out of ${shuffled.length}`;
+        document.getElementById('options').innerHTML = '';
+        document.getElementById('submit-btn').classList.add('hidden');
+        document.getElementById('next-btn').classList.add('hidden');
+        document.getElementById('retake-btn').classList.remove('hidden');
+        updateProgressBar();
+      } else {
+        displayQuestion();
+      }
+    });
+
+    document.getElementById('retake-btn').addEventListener('click', loadQuestions);
+
+    loadQuestions();
+  </script>
+</body>
+</html>

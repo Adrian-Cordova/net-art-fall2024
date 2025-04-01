@@ -1,0 +1,718 @@
+{
+    "questions": [
+        {
+            "type": "mcq",
+            "question": "Which sleep disorder is characterized by sudden sleep attacks?",
+            "options": [
+                "Sleep apnea",
+                "Insomnia",
+                "Narcolepsy",
+                "Parasomnia"
+            ],
+            "answer": "Narcolepsy",
+            "id": 41
+        },
+        {
+            "type": "mcq",
+            "question": "Which nervous system is activated in stressful situations, triggering a 'fight or flight' response?",
+            "options": [
+                "Somatic nervous system",
+                "Central nervous system",
+                "Sympathetic nervous system",
+                "Parasympathetic nervous system"
+            ],
+            "answer": "Sympathetic nervous system",
+            "id": 62
+        },
+        {
+            "type": "mcq",
+            "question": "A Duchenne smile is best characterized by:",
+            "options": [
+                "Involuntary laughter",
+                "Engagement of eye and mouth muscles",
+                "Forced polite smile",
+                "Smile seen only during sadness"
+            ],
+            "answer": "Engagement of eye and mouth muscles",
+            "id": 46
+        },
+        {
+            "type": "mcq",
+            "question": "Which area of the brain is considered the primary center for regulating hunger?",
+            "options": [
+                "Prefrontal cortex",
+                "Lateral hypothalamus",
+                "Amygdala",
+                "Occipital lobe"
+            ],
+            "answer": "Lateral hypothalamus",
+            "id": 69
+        },
+        {
+            "type": "true_false",
+            "question": "Delay of gratification refers to choosing immediate smaller rewards over later larger ones.",
+            "answer": "False",
+            "id": 64
+        },
+        {
+            "type": "mcq",
+            "question": "Manifest content in Freud's dream theory refers to:",
+            "options": [
+                "Symbolic interpretation of dreams",
+                "Hidden meaning of dreams",
+                "Actual content experienced in dreams",
+                "Psychological meaning of dreams"
+            ],
+            "answer": "Actual content experienced in dreams",
+            "id": 67
+        },
+        {
+            "type": "mcq",
+            "question": "Which sleep disorder is characterized by sudden sleep attacks?",
+            "options": [
+                "Sleep apnea",
+                "Insomnia",
+                "Narcolepsy",
+                "Parasomnia"
+            ],
+            "answer": "Narcolepsy",
+            "id": 41
+        },
+        {
+            "type": "true_false",
+            "question": "Delay of gratification refers to choosing immediate smaller rewards over later larger ones.",
+            "answer": "False",
+            "id": 64
+        },
+        {
+            "type": "mcq",
+            "question": "Alfred Kinsey is best known for:",
+            "options": [
+                "Research on circadian rhythms",
+                "Studies on hunger and eating behavior",
+                "Conducting the first major survey of human sexual behavior",
+                "Theories of emotion"
+            ],
+            "answer": "Conducting the first major survey of human sexual behavior",
+            "id": 55
+        },
+        {
+            "type": "true_false",
+            "question": "Type B personality individuals are typically more prone to heart disease compared to Type A.",
+            "answer": "False",
+            "id": 38
+        },
+        {
+            "type": "true_false",
+            "question": "Delay of gratification refers to choosing immediate smaller rewards over later larger ones.",
+            "answer": "False",
+            "id": 64
+        },
+        {
+            "type": "mcq",
+            "question": "Circadian rhythms are primarily regulated by which factor?",
+            "options": [
+                "Dietary habits",
+                "Social activities",
+                "Internal biological clock",
+                "Mental activity"
+            ],
+            "answer": "Internal biological clock",
+            "id": 63
+        },
+        {
+            "type": "true_false",
+            "question": "Hypnosis can increase suggestibility but cannot enhance memory accuracy significantly.",
+            "answer": "True",
+            "id": 59
+        },
+        {
+            "type": "true_false",
+            "question": "Microexpressions are always indicative of lying.",
+            "answer": "False",
+            "id": 57
+        },
+        {
+            "type": "mcq",
+            "question": "Which area of the brain is considered the primary center for regulating hunger?",
+            "options": [
+                "Prefrontal cortex",
+                "Lateral hypothalamus",
+                "Amygdala",
+                "Occipital lobe"
+            ],
+            "answer": "Lateral hypothalamus",
+            "id": 69
+        },
+        {
+            "type": "mcq",
+            "question": "Which emotion theory suggests physiological response and emotional experience occur simultaneously?",
+            "options": [
+                "James-Lange theory",
+                "Cannon-Bard theory",
+                "Schachter-Singer theory",
+                "Freudian theory"
+            ],
+            "answer": "Cannon-Bard theory",
+            "id": 56
+        },
+        {
+            "type": "true_false",
+            "question": "Obesity is primarily caused by genetic factors alone.",
+            "answer": "False",
+            "id": 65
+        },
+        {
+            "type": "true_false",
+            "question": "Microexpressions are always indicative of lying.",
+            "answer": "False",
+            "id": 57
+        },
+        {
+            "type": "mcq",
+            "question": "Alfred Kinsey is best known for:",
+            "options": [
+                "Research on circadian rhythms",
+                "Studies on hunger and eating behavior",
+                "Conducting the first major survey of human sexual behavior",
+                "Theories of emotion"
+            ],
+            "answer": "Conducting the first major survey of human sexual behavior",
+            "id": 55
+        },
+        {
+            "type": "mcq",
+            "question": "According to drive-reduction theory, what primarily motivates behavior?",
+            "options": [
+                "Social acceptance",
+                "External incentives",
+                "Psychological discomfort due to unmet needs",
+                "Desire for exploration"
+            ],
+            "answer": "Psychological discomfort due to unmet needs",
+            "id": 40
+        },
+        {
+            "type": "mcq",
+            "question": "What describes intrinsic motivation best?",
+            "options": [
+                "Studying to avoid punishment",
+                "Exercising for a reward",
+                "Learning because you enjoy the topic",
+                "Working for salary"
+            ],
+            "answer": "Learning because you enjoy the topic",
+            "id": 66
+        },
+        {
+            "type": "true_false",
+            "question": "Jet lag is easier to adjust when traveling from west to east.",
+            "answer": "False",
+            "id": 36
+        },
+        {
+            "type": "true_false",
+            "question": "Type B personality individuals are typically more prone to heart disease compared to Type A.",
+            "answer": "False",
+            "id": 38
+        },
+        {
+            "type": "true_false",
+            "question": "Hypnosis can increase suggestibility but cannot enhance memory accuracy significantly.",
+            "answer": "True",
+            "id": 59
+        },
+        {
+            "type": "mcq",
+            "question": "Manifest content in Freud's dream theory refers to:",
+            "options": [
+                "Symbolic interpretation of dreams",
+                "Hidden meaning of dreams",
+                "Actual content experienced in dreams",
+                "Psychological meaning of dreams"
+            ],
+            "answer": "Actual content experienced in dreams",
+            "id": 67
+        },
+        {
+            "type": "mcq",
+            "question": "Which sleep disorder is characterized by sudden sleep attacks?",
+            "options": [
+                "Sleep apnea",
+                "Insomnia",
+                "Narcolepsy",
+                "Parasomnia"
+            ],
+            "answer": "Narcolepsy",
+            "id": 41
+        },
+        {
+            "type": "mcq",
+            "question": "Which sleep disorder is characterized by sudden sleep attacks?",
+            "options": [
+                "Sleep apnea",
+                "Insomnia",
+                "Narcolepsy",
+                "Parasomnia"
+            ],
+            "answer": "Narcolepsy",
+            "id": 41
+        },
+        {
+            "type": "mcq",
+            "question": "According to drive-reduction theory, what primarily motivates behavior?",
+            "options": [
+                "Social acceptance",
+                "External incentives",
+                "Psychological discomfort due to unmet needs",
+                "Desire for exploration"
+            ],
+            "answer": "Psychological discomfort due to unmet needs",
+            "id": 40
+        },
+        {
+            "type": "true_false",
+            "question": "Jet lag is easier to adjust when traveling from west to east.",
+            "answer": "False",
+            "id": 36
+        },
+        {
+            "type": "mcq",
+            "question": "According to drive-reduction theory, what primarily motivates behavior?",
+            "options": [
+                "Social acceptance",
+                "External incentives",
+                "Psychological discomfort due to unmet needs",
+                "Desire for exploration"
+            ],
+            "answer": "Psychological discomfort due to unmet needs",
+            "id": 40
+        },
+        {
+            "type": "mcq",
+            "question": "Which emotion theory suggests physiological response and emotional experience occur simultaneously?",
+            "options": [
+                "James-Lange theory",
+                "Cannon-Bard theory",
+                "Schachter-Singer theory",
+                "Freudian theory"
+            ],
+            "answer": "Cannon-Bard theory",
+            "id": 56
+        },
+        {
+            "type": "mcq",
+            "question": "Circadian rhythms are primarily regulated by which factor?",
+            "options": [
+                "Dietary habits",
+                "Social activities",
+                "Internal biological clock",
+                "Mental activity"
+            ],
+            "answer": "Internal biological clock",
+            "id": 63
+        },
+        {
+            "type": "mcq",
+            "question": "Which area of the brain is considered the primary center for regulating hunger?",
+            "options": [
+                "Prefrontal cortex",
+                "Lateral hypothalamus",
+                "Amygdala",
+                "Occipital lobe"
+            ],
+            "answer": "Lateral hypothalamus",
+            "id": 69
+        },
+        {
+            "type": "mcq",
+            "question": "A Duchenne smile is best characterized by:",
+            "options": [
+                "Involuntary laughter",
+                "Engagement of eye and mouth muscles",
+                "Forced polite smile",
+                "Smile seen only during sadness"
+            ],
+            "answer": "Engagement of eye and mouth muscles",
+            "id": 46
+        },
+        {
+            "type": "mcq",
+            "question": "Circadian rhythms are primarily regulated by which factor?",
+            "options": [
+                "Dietary habits",
+                "Social activities",
+                "Internal biological clock",
+                "Mental activity"
+            ],
+            "answer": "Internal biological clock",
+            "id": 63
+        },
+        {
+            "type": "true_false",
+            "question": "Jet lag is easier to adjust when traveling from west to east.",
+            "answer": "False",
+            "id": 36
+        },
+        {
+            "type": "mcq",
+            "question": "Which nervous system is activated in stressful situations, triggering a 'fight or flight' response?",
+            "options": [
+                "Somatic nervous system",
+                "Central nervous system",
+                "Sympathetic nervous system",
+                "Parasympathetic nervous system"
+            ],
+            "answer": "Sympathetic nervous system",
+            "id": 62
+        },
+        {
+            "type": "true_false",
+            "question": "Type B personality individuals are typically more prone to heart disease compared to Type A.",
+            "answer": "False",
+            "id": 38
+        },
+        {
+            "type": "true_false",
+            "question": "Hypnosis can increase suggestibility but cannot enhance memory accuracy significantly.",
+            "answer": "True",
+            "id": 59
+        },
+        {
+            "type": "mcq",
+            "question": "According to drive-reduction theory, what primarily motivates behavior?",
+            "options": [
+                "Social acceptance",
+                "External incentives",
+                "Psychological discomfort due to unmet needs",
+                "Desire for exploration"
+            ],
+            "answer": "Psychological discomfort due to unmet needs",
+            "id": 40
+        },
+        {
+            "type": "mcq",
+            "question": "Which sleep disorder is characterized by sudden sleep attacks?",
+            "options": [
+                "Sleep apnea",
+                "Insomnia",
+                "Narcolepsy",
+                "Parasomnia"
+            ],
+            "answer": "Narcolepsy",
+            "id": 41
+        },
+        {
+            "type": "mcq",
+            "question": "Which emotion theory suggests physiological response and emotional experience occur simultaneously?",
+            "options": [
+                "James-Lange theory",
+                "Cannon-Bard theory",
+                "Schachter-Singer theory",
+                "Freudian theory"
+            ],
+            "answer": "Cannon-Bard theory",
+            "id": 56
+        },
+        {
+            "type": "mcq",
+            "question": "Which emotion theory suggests physiological response and emotional experience occur simultaneously?",
+            "options": [
+                "James-Lange theory",
+                "Cannon-Bard theory",
+                "Schachter-Singer theory",
+                "Freudian theory"
+            ],
+            "answer": "Cannon-Bard theory",
+            "id": 56
+        },
+        {
+            "type": "mcq",
+            "question": "Which nervous system is activated in stressful situations, triggering a 'fight or flight' response?",
+            "options": [
+                "Somatic nervous system",
+                "Central nervous system",
+                "Sympathetic nervous system",
+                "Parasympathetic nervous system"
+            ],
+            "answer": "Sympathetic nervous system",
+            "id": 62
+        },
+        {
+            "type": "mcq",
+            "question": "A Duchenne smile is best characterized by:",
+            "options": [
+                "Involuntary laughter",
+                "Engagement of eye and mouth muscles",
+                "Forced polite smile",
+                "Smile seen only during sadness"
+            ],
+            "answer": "Engagement of eye and mouth muscles",
+            "id": 46
+        },
+        {
+            "type": "mcq",
+            "question": "A Duchenne smile is best characterized by:",
+            "options": [
+                "Involuntary laughter",
+                "Engagement of eye and mouth muscles",
+                "Forced polite smile",
+                "Smile seen only during sadness"
+            ],
+            "answer": "Engagement of eye and mouth muscles",
+            "id": 46
+        },
+        {
+            "type": "mcq",
+            "question": "What distinguishes blindsight from normal vision?",
+            "options": [
+                "Conscious visual perception",
+                "The ability to guess locations of unseen objects accurately",
+                "Full color perception",
+                "Complete blindness"
+            ],
+            "answer": "The ability to guess locations of unseen objects accurately",
+            "id": 61
+        },
+        {
+            "type": "mcq",
+            "question": "What describes intrinsic motivation best?",
+            "options": [
+                "Studying to avoid punishment",
+                "Exercising for a reward",
+                "Learning because you enjoy the topic",
+                "Working for salary"
+            ],
+            "answer": "Learning because you enjoy the topic",
+            "id": 66
+        },
+        {
+            "type": "mcq",
+            "question": "Which nervous system is activated in stressful situations, triggering a 'fight or flight' response?",
+            "options": [
+                "Somatic nervous system",
+                "Central nervous system",
+                "Sympathetic nervous system",
+                "Parasympathetic nervous system"
+            ],
+            "answer": "Sympathetic nervous system",
+            "id": 62
+        },
+        {
+            "type": "mcq",
+            "question": "What distinguishes blindsight from normal vision?",
+            "options": [
+                "Conscious visual perception",
+                "The ability to guess locations of unseen objects accurately",
+                "Full color perception",
+                "Complete blindness"
+            ],
+            "answer": "The ability to guess locations of unseen objects accurately",
+            "id": 61
+        },
+        {
+            "type": "true_false",
+            "question": "Delay of gratification refers to choosing immediate smaller rewards over later larger ones.",
+            "answer": "False",
+            "id": 64
+        },
+        {
+            "type": "mcq",
+            "question": "What distinguishes blindsight from normal vision?",
+            "options": [
+                "Conscious visual perception",
+                "The ability to guess locations of unseen objects accurately",
+                "Full color perception",
+                "Complete blindness"
+            ],
+            "answer": "The ability to guess locations of unseen objects accurately",
+            "id": 61
+        },
+        {
+            "type": "true_false",
+            "question": "Obesity is primarily caused by genetic factors alone.",
+            "answer": "False",
+            "id": 65
+        },
+        {
+            "type": "mcq",
+            "question": "According to Selye\u2019s stress theory, during which stage does the body mobilize its resources initially?",
+            "options": [
+                "Resistance",
+                "Alarm",
+                "Exhaustion",
+                "Recovery"
+            ],
+            "answer": "Alarm",
+            "id": 70
+        },
+        {
+            "type": "mcq",
+            "question": "Alfred Kinsey is best known for:",
+            "options": [
+                "Research on circadian rhythms",
+                "Studies on hunger and eating behavior",
+                "Conducting the first major survey of human sexual behavior",
+                "Theories of emotion"
+            ],
+            "answer": "Conducting the first major survey of human sexual behavior",
+            "id": 55
+        },
+        {
+            "type": "mcq",
+            "question": "Which emotion theory suggests physiological response and emotional experience occur simultaneously?",
+            "options": [
+                "James-Lange theory",
+                "Cannon-Bard theory",
+                "Schachter-Singer theory",
+                "Freudian theory"
+            ],
+            "answer": "Cannon-Bard theory",
+            "id": 56
+        },
+        {
+            "type": "true_false",
+            "question": "Microexpressions are always indicative of lying.",
+            "answer": "False",
+            "id": 57
+        },
+        {
+            "type": "mcq",
+            "question": "What describes intrinsic motivation best?",
+            "options": [
+                "Studying to avoid punishment",
+                "Exercising for a reward",
+                "Learning because you enjoy the topic",
+                "Working for salary"
+            ],
+            "answer": "Learning because you enjoy the topic",
+            "id": 66
+        },
+        {
+            "type": "true_false",
+            "question": "Hypnosis can increase suggestibility but cannot enhance memory accuracy significantly.",
+            "answer": "True",
+            "id": 59
+        },
+        {
+            "type": "mcq",
+            "question": "Manifest content in Freud's dream theory refers to:",
+            "options": [
+                "Symbolic interpretation of dreams",
+                "Hidden meaning of dreams",
+                "Actual content experienced in dreams",
+                "Psychological meaning of dreams"
+            ],
+            "answer": "Actual content experienced in dreams",
+            "id": 67
+        },
+        {
+            "type": "mcq",
+            "question": "What distinguishes blindsight from normal vision?",
+            "options": [
+                "Conscious visual perception",
+                "The ability to guess locations of unseen objects accurately",
+                "Full color perception",
+                "Complete blindness"
+            ],
+            "answer": "The ability to guess locations of unseen objects accurately",
+            "id": 61
+        },
+        {
+            "type": "mcq",
+            "question": "Which nervous system is activated in stressful situations, triggering a 'fight or flight' response?",
+            "options": [
+                "Somatic nervous system",
+                "Central nervous system",
+                "Sympathetic nervous system",
+                "Parasympathetic nervous system"
+            ],
+            "answer": "Sympathetic nervous system",
+            "id": 62
+        },
+        {
+            "type": "mcq",
+            "question": "Circadian rhythms are primarily regulated by which factor?",
+            "options": [
+                "Dietary habits",
+                "Social activities",
+                "Internal biological clock",
+                "Mental activity"
+            ],
+            "answer": "Internal biological clock",
+            "id": 63
+        },
+        {
+            "type": "true_false",
+            "question": "Delay of gratification refers to choosing immediate smaller rewards over later larger ones.",
+            "answer": "False",
+            "id": 64
+        },
+        {
+            "type": "true_false",
+            "question": "Obesity is primarily caused by genetic factors alone.",
+            "answer": "False",
+            "id": 65
+        },
+        {
+            "type": "mcq",
+            "question": "What describes intrinsic motivation best?",
+            "options": [
+                "Studying to avoid punishment",
+                "Exercising for a reward",
+                "Learning because you enjoy the topic",
+                "Working for salary"
+            ],
+            "answer": "Learning because you enjoy the topic",
+            "id": 66
+        },
+        {
+            "type": "mcq",
+            "question": "Manifest content in Freud's dream theory refers to:",
+            "options": [
+                "Symbolic interpretation of dreams",
+                "Hidden meaning of dreams",
+                "Actual content experienced in dreams",
+                "Psychological meaning of dreams"
+            ],
+            "answer": "Actual content experienced in dreams",
+            "id": 67
+        },
+        {
+            "type": "mcq",
+            "question": "According to Selye\u2019s stress theory, during which stage does the body mobilize its resources initially?",
+            "options": [
+                "Resistance",
+                "Alarm",
+                "Exhaustion",
+                "Recovery"
+            ],
+            "answer": "Alarm",
+            "id": 70
+        },
+        {
+            "type": "mcq",
+            "question": "Which area of the brain is considered the primary center for regulating hunger?",
+            "options": [
+                "Prefrontal cortex",
+                "Lateral hypothalamus",
+                "Amygdala",
+                "Occipital lobe"
+            ],
+            "answer": "Lateral hypothalamus",
+            "id": 69
+        },
+        {
+            "type": "mcq",
+            "question": "According to Selye\u2019s stress theory, during which stage does the body mobilize its resources initially?",
+            "options": [
+                "Resistance",
+                "Alarm",
+                "Exhaustion",
+                "Recovery"
+            ],
+            "answer": "Alarm",
+            "id": 70
+        }
+    ]
+}
